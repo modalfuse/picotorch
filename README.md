@@ -2,7 +2,10 @@
 
 **An open-source machine learning framework that accelerates the path from research prototyping to deployment on constrained embedded platforms.**
 
-Public repository: [modalfuse/picotorch](https://github.com/modalfuse/picotorch), matching `rice-former` and `pico-former`.
+Repository: [https://github.com/modalfuse/picotorch](https://github.com/modalfuse/picotorch)  
+Release: [v1.0.1](https://github.com/modalfuse/picotorch/releases/tag/v1.0.1)
+
+PicoTorch belongs to the same class of on-device inference frameworks as the Espressif INT8/INT16 stack and LiteRT Micro. The on-device interface assembles a `Module` graph and runs one `forward`. Fused self-attention and cross-attention are implemented in this library in hardware FP32 on ESP32-S3.
 
 ## Scope
 
@@ -51,3 +54,11 @@ Dataset download steps: `examples/wisdm/data/README.md`, `examples/cifar10/data/
 
 - Glucose counterpart application: [Pico-Former](https://github.com/modalfuse/pico-former), Zenodo [10.5281/zenodo.22218446](https://doi.org/10.5281/zenodo.22218446)
 - Host protocol: [RICE-Former](https://github.com/modalfuse/rice-former), Zenodo [10.5281/zenodo.22171786](https://doi.org/10.5281/zenodo.22171786)
+
+## Citation
+
+Citation metadata are in `CITATION.cff`. Please cite the accompanying manuscript when referring to the scientific findings.
+
+## Licensing
+
+Source code: MIT License (`LICENSE`).

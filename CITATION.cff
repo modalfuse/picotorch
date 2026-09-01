@@ -1,0 +1,59 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using these metadata."
+title: "PicoTorch: an open-source machine learning framework for constrained embedded platforms"
+type: software
+version: 1.0.1
+date-released: 2026-09-01
+license: MIT
+authors:
+  - family-names: Liu
+    given-names: Qiang
+    email: liuq@bipt.edu.cn
+    affiliation: Beijing Institute of Petrochemical Technology
+    orcid: "https://orcid.org/0000-0003-3699-5858"
+  - family-names: Yang
+    given-names: Ming
+    affiliation: Beijing Institute of Petrochemical Technology
+    orcid: "https://orcid.org/0009-0006-9270-3521"
+  - family-names: Wang
+    given-names: Zijiaqi
+    affiliation: Beijing Institute of Petrochemical Technology
+  - family-names: Wang
+    given-names: Saier
+    affiliation: Beijing Institute of Petrochemical Technology
+  - family-names: An
+    given-names: Xiang
+    affiliation: Beijing Institute of Petrochemical Technology
+    orcid: "https://orcid.org/0009-0004-3167-4072"
+  - family-names: Lu
+    given-names: Sichao
+    affiliation: Beijing Institute of Petrochemical Technology
+  - family-names: Yang
+    given-names: Qiang
+    email: yangqiang@bipt.edu.cn
+    affiliation: Beijing Institute of Petrochemical Technology
+    orcid: "https://orcid.org/0000-0001-5767-4637"
+  - family-names: Liu
+    given-names: Mingyuan
+    email: dr.mingyuanliu@pku.edu.cn
+    affiliation: Department of Vascular Surgery, Capital Medical University Affiliated Beijing Friendship Hospital
+  - family-names: Wu
+    given-names: Zhenyu
+    email: wuzhenyu555@sina.com
+    affiliation: Capital Medical University Daxing Teaching Hospital
+  - family-names: Huang
+    given-names: Dongming
+    affiliation: Capital Medical University Daxing Teaching Hospital
+keywords:
+  - machine learning framework
+  - on-device inference
+  - ESP32-S3
+  - Transformer
+  - hardware FP32
+  - TinyML
+repository-code: "https://github.com/modalfuse/picotorch"
+abstract: >-
+  Open-source unified machine-learning framework that assembles a Module
+  graph and runs one forward pass on constrained embedded platforms.
+  First host ESP32-S3; fused self-attention and cross-attention in
+  hardware FP32. Training stays on PC PyTorch.

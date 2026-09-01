@@ -1,0 +1,94 @@
+{
+  "title": "PicoTorch: an open-source machine learning framework for constrained embedded platforms",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "language": "eng",
+  "version": "v1.0.1",
+  "publication_date": "2026-09-01",
+  "creators": [
+    {
+      "name": "Liu, Qiang",
+      "affiliation": "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology",
+      "orcid": "0000-0003-3699-5858"
+    },
+    {
+      "name": "Yang, Ming",
+      "affiliation": "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology",
+      "orcid": "0009-0006-9270-3521"
+    },
+    {
+      "name": "Wang, Zijiaqi",
+      "affiliation": "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology"
+    },
+    {
+      "name": "Wang, Saier",
+      "affiliation": "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology"
+    },
+    {
+      "name": "An, Xiang",
+      "affiliation": "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology",
+      "orcid": "0009-0004-3167-4072"
+    },
+    {
+      "name": "Lu, Sichao",
+      "affiliation": "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology"
+    },
+    {
+      "name": "Yang, Qiang",
+      "affiliation": "Academy of Artificial Intelligence, Beijing Institute of Petrochemical Technology",
+      "orcid": "0000-0001-5767-4637"
+    },
+    {
+      "name": "Liu, Mingyuan",
+      "affiliation": "Department of Vascular Surgery, Capital Medical University Affiliated Beijing Friendship Hospital"
+    },
+    {
+      "name": "Wu, Zhenyu",
+      "affiliation": "Capital Medical University Daxing Teaching Hospital"
+    },
+    {
+      "name": "Huang, Dongming",
+      "affiliation": "Capital Medical University Daxing Teaching Hospital"
+    }
+  ],
+  "keywords": [
+    "machine learning framework",
+    "on-device inference",
+    "ESP32-S3",
+    "Transformer",
+    "hardware FP32",
+    "fused attention",
+    "TinyML",
+    "LiteRT Micro",
+    "ESP-DL"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/modalfuse/picotorch",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/modalfuse/picotorch/tree/v1.0.1",
+      "relation": "isIdenticalTo",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.22218446",
+      "relation": "cites",
+      "resource_type": "software",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.22171786",
+      "relation": "cites",
+      "resource_type": "software",
+      "scheme": "doi"
+    }
+  ],
+  "notes": "This software archive is the public PicoTorch source tree. Training remains on PC PyTorch. Raw WISDM and CIFAR-10 archives, PlatformIO .pio trees, and ESP-IDF managed_components are not redistributed. Pico-Former is an independently developed glucose application, archived at https://doi.org/10.5281/zenodo.22218446.",
+  "description": "<p>This software archive provides <strong>PicoTorch</strong>, an open-source unified machine-learning framework that shortens the path from a research prototype to a constrained embedded platform. The first host is ESP32-S3. The on-device interface assembles a <code>Module</code> graph (<code>Linear</code>, <code>LayerNorm</code>, multi-head attention, feed-forward, <code>Sequential</code>) and runs one <code>forward</code>. Fused self-attention and cross-attention are implemented in this library in hardware FP32. PicoTorch does not call Espressif ESP-DL, ESP-NN, or ESP-PPQ.</p>\n\n<p>It belongs to the same class of on-device inference frameworks as the Espressif INT8/INT16 stack and LiteRT Micro, and supplies the hardware-FP32 forward path that the official Espressif stack does not provide. On one ESP32-S3 and one WISDM weight set, PicoTorch FP32 reports a burn-in median of 30.9 ms and 47.5 KB of working SRAM against LiteRT Micro FP32 at 169.7 ms and 88.5 KB, with Top-1 agreement 1.000 on both sides. The Espressif INT8 official path reports 9.8 ms and is listed as a separate precision tier.</p>\n\n<h2>Included materials</h2>\n<ul>\n<li>Public C++ headers and kernels (<code>include/picotorch/</code>, <code>src/</code>)</li>\n<li>Five host call programs in <code>examples/minimal/</code></li>\n<li>WISDM 6-class Encoder and CIFAR-10 Conv+Encoder examples, with exported FP32 weights and contrast firmware for LiteRT Micro and ESP-DL INT8</li>\n<li>PicoTorch glucose application example (counterpart: Pico-Former)</li>\n<li>Programming guide and host max-abs checks</li>\n</ul>\n\n<h2>Data boundary</h2>\n<p>Raw WISDM Actitracker and CIFAR-10 archives are obtained from their original providers. PlatformIO <code>.pio/</code> trees and ESP-IDF <code>managed_components/</code> are generated locally. Those artifacts are not part of this deposit.</p>\n\n<h2>Companion archives</h2>\n<ul>\n<li>Pico-Former: <a href=\"https://doi.org/10.5281/zenodo.22218446\">10.5281/zenodo.22218446</a></li>\n<li>RICE-Former: <a href=\"https://doi.org/10.5281/zenodo.22171786\">10.5281/zenodo.22171786</a></li>\n</ul>\n\n<p><strong>Software repository:</strong> <a href=\"https://github.com/modalfuse/picotorch\">https://github.com/modalfuse/picotorch</a></p>"
+}
