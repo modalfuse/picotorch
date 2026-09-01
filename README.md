@@ -2,8 +2,11 @@
 
 **An open-source machine learning framework that accelerates the path from research prototyping to deployment on constrained embedded platforms.**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22231092.svg)](https://doi.org/10.5281/zenodo.22231092)
+
 Repository: [https://github.com/modalfuse/picotorch](https://github.com/modalfuse/picotorch)  
-Release: [v1.0.1](https://github.com/modalfuse/picotorch/releases/tag/v1.0.1)
+Release: [v1.0.1](https://github.com/modalfuse/picotorch/releases/tag/v1.0.1)  
+Zenodo: [https://doi.org/10.5281/zenodo.22231092](https://doi.org/10.5281/zenodo.22231092)
 
 PicoTorch belongs to the same class of on-device inference frameworks as the Espressif INT8/INT16 stack and LiteRT Micro. The on-device interface assembles a `Module` graph and runs one `forward`. Fused self-attention and cross-attention are implemented in this library in hardware FP32 on ESP32-S3.
 
@@ -57,7 +60,9 @@ Dataset download steps: `examples/wisdm/data/README.md`, `examples/cifar10/data/
 
 ## Citation
 
-Citation metadata are in `CITATION.cff`. Please cite the accompanying manuscript when referring to the scientific findings.
+> Liu Q, Yang M, Wang Z, Wang S, An X, Lu S, Yang Q, Liu M, Wu Z, Huang D. PicoTorch: an open-source machine learning framework for constrained embedded platforms. Zenodo. https://doi.org/10.5281/zenodo.22231092
+
+Citation metadata are also in `CITATION.cff`. Please cite the accompanying manuscript when referring to the scientific findings.
 
 ## Licensing
 
