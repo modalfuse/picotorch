@@ -1,8 +1,8 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it using these metadata."
+message: "If you use this software or its archived results, please cite it using these metadata."
 title: "PicoTorch: an open-source machine learning framework for constrained embedded platforms"
 type: software
-version: 1.0.1
+version: 1.0.2
 date-released: 2026-09-01
 doi: 10.5281/zenodo.22231092
 license: MIT
@@ -19,9 +19,11 @@ authors:
   - family-names: Wang
     given-names: Zijiaqi
     affiliation: Beijing Institute of Petrochemical Technology
+    orcid: "https://orcid.org/0009-0000-6296-4882"
   - family-names: Wang
     given-names: Saier
     affiliation: Beijing Institute of Petrochemical Technology
+    orcid: "https://orcid.org/0009-0006-4289-258X"
   - family-names: An
     given-names: Xiang
     affiliation: Beijing Institute of Petrochemical Technology
@@ -29,6 +31,7 @@ authors:
   - family-names: Lu
     given-names: Sichao
     affiliation: Beijing Institute of Petrochemical Technology
+    orcid: "https://orcid.org/0000-0002-5409-6154"
   - family-names: Yang
     given-names: Qiang
     email: yangqiang@bipt.edu.cn
@@ -38,10 +41,12 @@ authors:
     given-names: Mingyuan
     email: dr.mingyuanliu@pku.edu.cn
     affiliation: Department of Vascular Surgery, Capital Medical University Affiliated Beijing Friendship Hospital
+    orcid: "https://orcid.org/0000-0002-6449-4885"
   - family-names: Wu
     given-names: Zhenyu
     email: wuzhenyu555@sina.com
     affiliation: Capital Medical University Daxing Teaching Hospital
+    orcid: "https://orcid.org/0000-0002-5309-4632"
   - family-names: Huang
     given-names: Dongming
     affiliation: Capital Medical University Daxing Teaching Hospital
@@ -54,7 +59,8 @@ keywords:
   - TinyML
 repository-code: "https://github.com/modalfuse/picotorch"
 abstract: >-
-  Open-source unified machine-learning framework that assembles a Module
-  graph and runs one forward pass on constrained embedded platforms.
+  Open-source unified machine-learning framework that shortens the path
+  from a research prototype to a constrained embedded platform. The
+  on-device interface assembles a Module graph and runs one forward pass.
   First host ESP32-S3; fused self-attention and cross-attention in
   hardware FP32. Training stays on PC PyTorch.
