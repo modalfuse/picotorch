@@ -1,6 +1,6 @@
 # GitHub and Zenodo release procedure
 
-GitHub repository name is `picotorch` (lowercase). The display title in README and Zenodo is **PicoTorch: A Machine Learning Framework on ESP32**. It is not the manuscript title (*PicoTorch: An Open-Source Framework for Deploying Small Transformers onto Constrained Embedded Platforms*).
+GitHub repository name is `picotorch` (lowercase). The display title in README and Zenodo is **PicoTorch: an open source deep learning framework on ESP32**.
 
 ## Before publishing
 

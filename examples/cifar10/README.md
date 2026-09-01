@@ -1,6 +1,6 @@
 # CIFAR-10 Conv + Encoder
 
-**An open-source machine learning framework that accelerates the path from research prototyping to deployment on constrained embedded platforms.**
+**PicoTorch is an open source deep learning framework on ESP32 that accelerates the path from research prototyping to on-device deployment.**
 
 This example is the third PicoTorch graph: three stride-2 \(3\times3\) convolutions in the example, then `TransformerEncoderLayer` + mean pool + a 10-way head. Training stays on PC PyTorch. Convolution stays in the example (`cifar_ops.hpp`); the Encoder path is PicoTorch hardware FP32.
 

@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this software or its archived results, please cite it using these metadata."
-title: "PicoTorch: A Machine Learning Framework on ESP32"
+title: "PicoTorch: an open source deep learning framework on ESP32"
 type: software
-version: 1.0.3
+version: 1.0.4
 date-released: 2026-09-01
 doi: 10.5281/zenodo.22231092
 license: MIT
@@ -59,8 +59,8 @@ keywords:
   - TinyML
 repository-code: "https://github.com/modalfuse/picotorch"
 abstract: >-
-  Open-source unified machine-learning framework that shortens the path
-  from a research prototype to a constrained embedded platform. The
-  on-device interface assembles a Module graph and runs one forward pass.
-  First host ESP32-S3; fused self-attention and cross-attention in
+  PicoTorch is an open source deep learning framework on ESP32 that
+  accelerates the path from research prototyping to on-device deployment.
+  The on-device interface assembles a Module graph and runs one forward
+  pass. First host ESP32-S3; fused self-attention and cross-attention in
   hardware FP32. Training stays on PC PyTorch.

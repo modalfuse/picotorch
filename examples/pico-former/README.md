@@ -1,6 +1,6 @@
 # PicoTorch glucose application
 
-**An open-source machine learning framework that accelerates the path from research prototyping to deployment on constrained embedded platforms.**
+**PicoTorch is an open source deep learning framework on ESP32 that accelerates the path from research prototyping to on-device deployment.**
 
 This example is the PicoTorch glucose application: Encoder + cross-attention + dual heads, assembled with `TransformerEncoderLayer` and `MultiHeadAttention`, one `forward` per window. The same-task counterpart is Pico-Former, an independently developed glucose application.
 

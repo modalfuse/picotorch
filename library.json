@@ -1,7 +1,7 @@
 {
   "name": "PicoTorch",
-  "version": "1.0.3",
-  "description": "A machine-learning framework on ESP32.",
+  "version": "1.0.4",
+  "description": "An open source deep learning framework on ESP32.",
   "keywords": ["machine-learning", "transformer", "esp32"],
   "license": "MIT",
   "frameworks": "*",

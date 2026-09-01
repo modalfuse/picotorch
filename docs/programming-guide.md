@@ -1,8 +1,8 @@
 # PicoTorch Programming Guide
 
-**An open-source machine learning framework that accelerates the path from research prototyping to deployment on constrained embedded platforms.**
+**PicoTorch is an open source deep learning framework on ESP32 that accelerates the path from research prototyping to on-device deployment.**
 
-PicoTorch is the C++ programming framework for that path: assemble a `Module` graph, run one `forward`, and deploy the same graph on the host reference backend or on ESP32-S3 hardware FP32. `Linear`, `LayerNorm`, Softmax, and fused attention are implemented in this library. PicoTorch does not call ESP-DL, ESP-NN, or ESP-PPQ. Training stays on PC PyTorch.
+Assemble a `Module` graph, run one `forward`, and deploy the same graph on the host reference backend or on ESP32-S3 hardware FP32. `Linear`, `LayerNorm`, Softmax, and fused attention are implemented in this library. PicoTorch does not call ESP-DL, ESP-NN, or ESP-PPQ. Training stays on PC PyTorch.
 
 This guide matches the public headers under `include/picotorch/`. Worked call sites live in `examples/minimal/`.
 
