@@ -1,0 +1,21 @@
+{
+  "test_top1": 0.812529,
+  "test_macro_f1": 0.773099,
+  "probe": 32,
+  "logit_maxabs": 1e-4,
+  "probe_top1_agree": 1.0,
+  "split": "users 1-28 train, 29-36 test",
+  "window": "L=80 stride=40, 20 Hz, 6-class Kwapisz 2010",
+  "s3": {
+    "chip": "ESP32-S3",
+    "quant": "hardware FP32",
+    "ms_burn_median": 30.9,
+    "ms_burn_p95": 30.9,
+    "ms_probe_median": 31.0,
+    "work_sram_bytes": 47488,
+    "arena_bytes": 42304,
+    "flash_bytes": 319281,
+    "logit_maxabs": 2.384186e-06,
+    "top1_agree": 1.0
+  }
+}

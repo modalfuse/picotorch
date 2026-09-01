@@ -1,0 +1,49 @@
+.DS_Store
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local CMake / IDE builds (repo-root and firmware)
+build/
+cmake-build-*/
+compile_commands.json
+
+# PlatformIO and ESP-IDF fetch/build trees
+.pio/
+managed_components/
+.cache/
+
+# ESP-IDF generated config (keep sdkconfig.defaults*)
+sdkconfig
+!sdkconfig.defaults
+!sdkconfig.defaults.*
+
+# Firmware image artifacts
+*.bin
+*.elf
+*.map
+*.o
+*.obj
+
+# Training checkpoints and secrets (exported .espdl / .tflite stay in tree)
+*.pt
+*.pkl
+*.ckpt
+*.pth
+wifi.yaml
+.env
+.env.*
+include/secrets.h
+include/wifi_secrets.gen.h
+
+# Local PlatformIO library symlink (see examples/*/README.md)
+examples/*/firmware/lib/PicoTorch
+
+# Raw datasets: download locally; keep only data/README.md
+examples/wisdm/data/**
+!examples/wisdm/data/README.md
+examples/cifar10/data/**
+!examples/cifar10/data/README.md
+*.aria2

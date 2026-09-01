@@ -1,0 +1,7 @@
+{
+  "fp32_logit_maxabs": 1.07288361e-06,
+  "int8_logit_maxabs": 2.38743877e+00,
+  "int8_top1_agree": 0.906250,
+  "target": "esp32s3",
+  "bits": 8
+}

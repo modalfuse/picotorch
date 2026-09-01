@@ -1,0 +1,20 @@
+{
+  "test_top1": 0.474400,
+  "probe": 32,
+  "logit_maxabs": 1e-4,
+  "probe_top1_agree": 1.0,
+  "graph": "3x conv stride2 + Encoder L=16 d=16 h=2 + 10-way",
+  "split": "CIFAR-10 official train/test",
+  "s3": {
+    "chip": "ESP32-S3",
+    "quant": "hardware FP32",
+    "ms_burn_median": 49.6,
+    "ms_burn_p95": 49.6,
+    "ms_probe_median": 49.8,
+    "work_sram_bytes": 31872,
+    "arena_bytes": 9280,
+    "flash_bytes": 698193,
+    "logit_maxabs": 1.192093e-06,
+    "top1_agree": 1.0
+  }
+}

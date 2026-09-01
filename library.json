@@ -1,0 +1,14 @@
+{
+  "name": "PicoTorch",
+  "version": "1.0.0",
+  "description": "An open-source machine learning framework that accelerates the path from research prototyping to deployment on constrained embedded platforms.",
+  "keywords": ["machine-learning", "transformer", "esp32"],
+  "license": "MIT",
+  "frameworks": "*",
+  "platforms": "*",
+  "build": {
+    "includeDir": "include",
+    "srcDir": "src",
+    "flags": ["-O3"]
+  }
+}
