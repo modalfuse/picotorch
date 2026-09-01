@@ -1,9 +1,9 @@
-# PicoTorch: an open-source machine learning framework for constrained embedded platforms
+# PicoTorch: A Machine Learning Framework on ESP32
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22231092.svg)](https://doi.org/10.5281/zenodo.22231092)
 
 Repository: [https://github.com/modalfuse/picotorch](https://github.com/modalfuse/picotorch)  
-Release: [v1.0.2](https://github.com/modalfuse/picotorch/releases/tag/v1.0.2)  
+Release: [v1.0.3](https://github.com/modalfuse/picotorch/releases/tag/v1.0.3)  
 Zenodo: [https://doi.org/10.5281/zenodo.22231092](https://doi.org/10.5281/zenodo.22231092)
 
 PicoTorch is an open-source unified machine-learning framework that shortens the path from a research prototype to a constrained embedded platform. The on-device interface assembles a `Module` graph (`Linear`, `LayerNorm`, multi-head attention, feed-forward, `Sequential`) and runs one `forward`. Fused self-attention and cross-attention are implemented in this library in hardware FP32. The first host is ESP32-S3. Training stays on PC PyTorch. PicoTorch does not call Espressif ESP-DL, ESP-NN, or ESP-PPQ.
@@ -69,7 +69,7 @@ WISDM Actitracker v1.1 remains available from the [Fordham WISDM Lab](https://ww
 
 Cite this software archive; cite the companions when the glucose application or the host protocol is used:
 
-> Liu Q, Yang M, Wang Z, Wang S, An X, Lu S, Yang Q, Liu M, Wu Z, Huang D. PicoTorch: an open-source machine learning framework for constrained embedded platforms. Zenodo. https://doi.org/10.5281/zenodo.22231092
+> Liu Q, Yang M, Wang Z, Wang S, An X, Lu S, Yang Q, Liu M, Wu Z, Huang D. PicoTorch: A Machine Learning Framework on ESP32. Zenodo. https://doi.org/10.5281/zenodo.22231092
 >
 > Liu Q, Yang M, Wang Z, Wang S, An X, Lu S, Yang Q, Liu M, Wu Z, Huang D. Pico-Former: a curve–event glucose Transformer on ESP32-S3. Zenodo. https://doi.org/10.5281/zenodo.22218446
 >

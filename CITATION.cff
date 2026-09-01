@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this software or its archived results, please cite it using these metadata."
-title: "PicoTorch: an open-source machine learning framework for constrained embedded platforms"
+title: "PicoTorch: A Machine Learning Framework on ESP32"
 type: software
-version: 1.0.2
+version: 1.0.3
 date-released: 2026-09-01
 doi: 10.5281/zenodo.22231092
 license: MIT
